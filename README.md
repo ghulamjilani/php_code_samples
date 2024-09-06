@@ -1,3 +1,8 @@
+# PHP/Laravel Code Samples
+
+I have structured this repository for introductory or reference purpose regarding my code samples. Here is the structure of the repo:
+
+~~~
 /php_code_samples
 │
 ├── /app
@@ -22,7 +27,7 @@
 │   │   │   ├── ResponseHelper.php
 │   │   │   └── ValidtorHelper.php                                 
 │   │   │
-│   │   ├── /Requests                               # Requests/validation files
+│   │   ├── /Requests                            # Requests/validation files
 │   │   │   ├── BillDeleteRequest.php
 │   │   │   ├── BillStoreRequest.php
 │   │   │   ├── EmployeesRequest.php
@@ -31,11 +36,11 @@
 │   │   │   ├── RecordAttendanceRequest.php
 │   │   │   └── UpdateAttendanceRequest.php                                 
 │   │   │
-│   │   ├── /Responses                              # Responses helper files
+│   │   ├── /Responses                           # Responses helper files
 │   │   │   ├── Message.php
 │   │   │   └── ResponseCode.php                                 
 │   │   │
-│   │   ├── /models                           # Model files
+│   │   ├── /models                              # Model files
 │   │   │   ├── Attendance.php                      
 │   │   │   ├── Bills.php
 │   │   │   ├── Employee.php
@@ -45,12 +50,12 @@
 │
 ├── /resourcs                                
 │   │   ├── /js                                      
-│   │   │   ├── /components                          # JS compnents files
+│   │   │   ├── /components                      # JS compnents files
 │   │   │   │   ├── CourseCard.jsx
 │   │   │   │   ├── Example.jss                      
 │   │   │   │   ├── excelExport.jss                                     
 │   │   │   │   └── textField.jss             
-│   │   │   ├── /ReactJS                          # JS compnents files
+│   │   │   ├── /ReactJS                        # JS compnents files
 │   │   │   │   ├── auth.js
 │   │   │   │   └── CoursePage.jss
 │   │   │   ├── bootstrap.js
@@ -83,7 +88,7 @@
 ├── package-lock.json
 ├── package.json
 └── README.md                                  # Project documentation
-
+~~~
 
 
 ## Attendance Controller
